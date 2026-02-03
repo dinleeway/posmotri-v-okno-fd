@@ -317,6 +317,12 @@ html {
   white-space: nowrap;
 }
 
+.result__video-container,
+.content__list-container {
+  position: relative;
+}
+
+
 .button,
 .input,
 .content__card-link {
