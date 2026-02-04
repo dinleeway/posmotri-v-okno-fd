@@ -71,7 +71,6 @@ html {
   font-style: normal;
   font-size: 18px;
   line-height: 22px;
-  letter-spacing: 0%;
   margin-bottom: 5px;
 }
 
@@ -108,7 +107,6 @@ html {
   font-style: normal;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
 }
 
 .search-form__textfield:focus-visible {
@@ -190,7 +188,6 @@ html {
   font-weight: 700;
   font-size: 75px;
   line-height: 70px;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -243,7 +240,6 @@ html {
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-transform: uppercase;
 }
 
@@ -253,7 +249,6 @@ html {
   font-style: normal;
   font-size: 18px;
   line-height: 16.2px;
-  letter-spacing: 0%;
 
   display: -webkit-box;
   -webkit-box-orient: vertical;
@@ -279,7 +274,6 @@ html {
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
-  letter-spacing: 0%;
   text-align: center;
   height: 34px;
 }
