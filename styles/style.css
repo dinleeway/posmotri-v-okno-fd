@@ -1,3 +1,22 @@
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+ol,
+li,
+blockquote,
+fieldset {
+  margin: 0;
+  padding: 0;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
 *,
 *::before,
 *::after {
@@ -47,6 +66,7 @@ html {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center;
 }
 
 /* Форма */
@@ -66,7 +86,7 @@ html {
 }
 
 .search-form__fieldset-title {
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -98,11 +118,14 @@ html {
   padding: 0;
   appearance: none;
   color: #fff;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 .search-form__textfield::placeholder {
   color: rgb(255 255 255 / 0.7);
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -184,7 +207,7 @@ html {
 }
 
 .title {
-  font-family: Oswald;
+  font-family: "Oswald", Arial, sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 70px;
@@ -236,7 +259,7 @@ html {
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
-  font-family: Oswald;
+  font-family: "Oswald", Arial, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 100%;
@@ -244,7 +267,7 @@ html {
 }
 
 .content__video-card-description {
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-weight: 400;
   font-style: normal;
   font-size: 18px;
@@ -270,7 +293,7 @@ html {
   border: #fff 1px solid;
   background-color: transparent;
   color: #fff;
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 100%;
@@ -298,7 +321,7 @@ html {
 
 .more-button {
   width: 100%;
-  min-height: 34px;
+  min-height: 34px; /* Кнопка почему-то не реагирует на высоту класса button, поэтому добавила здесь */
 }
 
 .visually-hidden {
@@ -316,30 +339,12 @@ html {
   position: relative;
 }
 
-
 .button,
 .input,
-.content__card-link {
+.content__card-link,
+.search-form__pseudo-checkbox,
+.search-form__label-text {
   cursor: pointer;
-}
-
-h1,
-h2,
-h3,
-h4,
-p,
-ul,
-ol,
-li,
-blockquote,
-fieldset {
-  margin: 0;
-  padding: 0;
-}
-
-ul,
-ol {
-  list-style: none;
 }
 
 /* Кастомный скроллбар */
